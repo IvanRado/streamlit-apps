@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "playground"
+version = "0.1.0"
+description = "Just package control"
+authors = ["IvanRado <ivanradovicc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.9"
+ipykernel = "^6.29.0"
+pytest = "^8.0.0"
+fastapi = "^0.109.2"
+streamlit = "^1.31.1"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
