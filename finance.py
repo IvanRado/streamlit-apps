@@ -170,7 +170,7 @@ st.header('Summary of Financial Analysis')
 st.write(f'Monthly Mortgage Payment: ${monthly_payment:.2f}')
 st.write(f'Total Investment Value after {timeline} years: ${investment_value[-1]:.2f}')
 st.write(f'Net Gain/Loss from Selling Immediately: ${(sell_price * (1 - realtor_fee / 100) - purchase_price) - first_time_buyer_discount:.2f}')
-st.write(f'Net Gain/Loss from Selling At End of Timeline: ${(final_sale_price - purchase_price) - first_time_buyer_discount:.2f}')
+st.write(f'Net Gain/Loss from Selling At End of Timeline: ${final_sale_price - purchase_price - first_time_buyer_discount:.2f}')
 st.write(f"Capital Upon Selling At End of Timeline: {total_capital[-1]:2f}")
 st.write("""
          All figures assume that any invested funds will be invested in a GIC & that the full tax return from rental income contributions goes towards a GIC
